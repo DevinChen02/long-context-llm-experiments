@@ -1,0 +1,8 @@
+# Dependencies imported by the API scripts; upstream requirements.txt is preserved.
+openai
+google-genai
+tiktoken
+datasets
+PyYAML
+tqdm
+torch
