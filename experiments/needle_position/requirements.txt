@@ -1,0 +1,13 @@
+datasets
+nltk
+numpy
+tqdm
+requests
+scikit-learn
+openai
+pandas
+scipy
+tiktoken
+matplotlib
+seaborn
+jupyter

@@ -1,0 +1,195 @@
+{
+  "model": "gemini-3.1-flash-lite-preview",
+  "n_samples": 157,
+  "n_calls": 471,
+  "n_errors": 0,
+  "accuracy_by_position": {
+    "10%": 0.7898,
+    "50%": 0.8153,
+    "90%": 0.8025
+  },
+  "accuracy_by_length": {
+    "short": 0.7716,
+    "medium": 0.8947,
+    "long": 0.7246
+  },
+  "accuracy_by_difficulty": {
+    "easy": 0.7359,
+    "hard": 0.8667
+  },
+  "accuracy_by_domain": {
+    "Code Repository Understanding": 0.7654,
+    "Long In-context Learning": 0.8,
+    "Long Structured Data Understanding": 0.8,
+    "Long-dialogue History Understanding": 0.8,
+    "Multi-Document QA": 0.8778,
+    "Single-Document QA": 0.7667
+  },
+  "accuracy_by_domain_position": {
+    "Code Repository Understanding": {
+      "10%": 0.8148,
+      "50%": 0.7778,
+      "90%": 0.7037
+    },
+    "Long In-context Learning": {
+      "10%": 0.7667,
+      "50%": 0.8,
+      "90%": 0.8333
+    },
+    "Long Structured Data Understanding": {
+      "10%": 0.75,
+      "50%": 0.85,
+      "90%": 0.8
+    },
+    "Long-dialogue History Understanding": {
+      "10%": 0.8,
+      "50%": 0.8,
+      "90%": 0.8
+    },
+    "Multi-Document QA": {
+      "10%": 0.9,
+      "50%": 0.8667,
+      "90%": 0.8667
+    },
+    "Single-Document QA": {
+      "10%": 0.7,
+      "50%": 0.8,
+      "90%": 0.8
+    }
+  },
+  "accuracy_by_length_position": {
+    "long": {
+      "10%": 0.7391,
+      "50%": 0.7174,
+      "90%": 0.7174
+    },
+    "medium": {
+      "10%": 0.8772,
+      "50%": 0.9474,
+      "90%": 0.8596
+    },
+    "short": {
+      "10%": 0.7407,
+      "50%": 0.7593,
+      "90%": 0.8148
+    }
+  },
+  "failure_rate_by_position": {
+    "10%": 0.2102,
+    "50%": 0.1847,
+    "90%": 0.1975
+  },
+  "latency": {
+    "mean": 2.83,
+    "median": 2.42,
+    "p95": 5.7
+  },
+  "tokens": {
+    "mean_input": 98572,
+    "mean_output": 1,
+    "total_input": 46427520,
+    "total_output": 471
+  },
+  "accuracy_by_sub_domain": {
+    "Academic": 0.8421,
+    "Agent history QA": 0.7333,
+    "Code repo QA": 0.7654,
+    "Detective": 0.6667,
+    "Dialogue history QA": 0.8667,
+    "Event ordering": 0.7333,
+    "Financial": 0.6667,
+    "Governmental": 0.8148,
+    "Knowledge graph reasoning": 0.75,
+    "Legal": 0.875,
+    "Literary": 0.8333,
+    "Many-shot learning": 0.8333,
+    "Multi-news": 1.0,
+    "New language translation": 0.5,
+    "Table QA": 0.8333,
+    "User guide QA": 0.8889
+  },
+  "accuracy_by_sub_domain_position": {
+    "Academic": {
+      "10%": 0.7895,
+      "50%": 0.8947,
+      "90%": 0.8421
+    },
+    "Agent history QA": {
+      "10%": 0.7,
+      "50%": 0.7,
+      "90%": 0.8
+    },
+    "Code repo QA": {
+      "10%": 0.8148,
+      "50%": 0.7778,
+      "90%": 0.7037
+    },
+    "Detective": {
+      "10%": 0.5,
+      "50%": 1.0,
+      "90%": 0.5
+    },
+    "Dialogue history QA": {
+      "10%": 0.9,
+      "50%": 0.9,
+      "90%": 0.8
+    },
+    "Event ordering": {
+      "10%": 0.6,
+      "50%": 0.8,
+      "90%": 0.8
+    },
+    "Financial": {
+      "10%": 0.8333,
+      "50%": 0.5,
+      "90%": 0.6667
+    },
+    "Governmental": {
+      "10%": 0.7778,
+      "50%": 0.7778,
+      "90%": 0.8889
+    },
+    "Knowledge graph reasoning": {
+      "10%": 0.625,
+      "50%": 0.875,
+      "90%": 0.75
+    },
+    "Legal": {
+      "10%": 0.875,
+      "50%": 0.875,
+      "90%": 0.875
+    },
+    "Literary": {
+      "10%": 0.8333,
+      "50%": 0.8333,
+      "90%": 0.8333
+    },
+    "Many-shot learning": {
+      "10%": 0.8333,
+      "50%": 0.8333,
+      "90%": 0.8333
+    },
+    "Multi-news": {
+      "10%": 1.0,
+      "50%": 1.0,
+      "90%": 1.0
+    },
+    "New language translation": {
+      "10%": 0.5,
+      "50%": 0.5,
+      "90%": 0.5
+    },
+    "Table QA": {
+      "10%": 0.8333,
+      "50%": 0.8333,
+      "90%": 0.8333
+    },
+    "User guide QA": {
+      "10%": 0.8333,
+      "50%": 0.8889,
+      "90%": 0.9444
+    }
+  },
+  "overall_accuracy": 0.8025,
+  "random_baseline": 0.25
+}

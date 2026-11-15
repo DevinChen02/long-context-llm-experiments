@@ -1,0 +1,195 @@
+{
+  "model": "gpt-5.4-nano",
+  "n_samples": 157,
+  "n_calls": 471,
+  "n_errors": 0,
+  "accuracy_by_position": {
+    "10%": 0.6051,
+    "50%": 0.5796,
+    "90%": 0.586
+  },
+  "accuracy_by_length": {
+    "short": 0.6049,
+    "medium": 0.655,
+    "long": 0.4928
+  },
+  "accuracy_by_difficulty": {
+    "easy": 0.5498,
+    "hard": 0.6292
+  },
+  "accuracy_by_domain": {
+    "Code Repository Understanding": 0.5679,
+    "Long In-context Learning": 0.5889,
+    "Long Structured Data Understanding": 0.7333,
+    "Long-dialogue History Understanding": 0.5,
+    "Multi-Document QA": 0.5889,
+    "Single-Document QA": 0.5778
+  },
+  "accuracy_by_domain_position": {
+    "Code Repository Understanding": {
+      "10%": 0.5556,
+      "50%": 0.5556,
+      "90%": 0.5926
+    },
+    "Long In-context Learning": {
+      "10%": 0.5667,
+      "50%": 0.6,
+      "90%": 0.6
+    },
+    "Long Structured Data Understanding": {
+      "10%": 0.8,
+      "50%": 0.65,
+      "90%": 0.75
+    },
+    "Long-dialogue History Understanding": {
+      "10%": 0.45,
+      "50%": 0.5,
+      "90%": 0.55
+    },
+    "Multi-Document QA": {
+      "10%": 0.5667,
+      "50%": 0.6333,
+      "90%": 0.5667
+    },
+    "Single-Document QA": {
+      "10%": 0.7,
+      "50%": 0.5333,
+      "90%": 0.5
+    }
+  },
+  "accuracy_by_length_position": {
+    "long": {
+      "10%": 0.5217,
+      "50%": 0.5,
+      "90%": 0.4565
+    },
+    "medium": {
+      "10%": 0.6842,
+      "50%": 0.6316,
+      "90%": 0.6491
+    },
+    "short": {
+      "10%": 0.5926,
+      "50%": 0.5926,
+      "90%": 0.6296
+    }
+  },
+  "failure_rate_by_position": {
+    "10%": 0.3949,
+    "50%": 0.4204,
+    "90%": 0.414
+  },
+  "latency": {
+    "mean": 5.72,
+    "median": 6.14,
+    "p95": 8.14
+  },
+  "tokens": {
+    "mean_input": 87636,
+    "mean_output": 5,
+    "total_input": 41277019,
+    "total_output": 2355
+  },
+  "accuracy_by_sub_domain": {
+    "Academic": 0.4912,
+    "Agent history QA": 0.5333,
+    "Code repo QA": 0.5679,
+    "Detective": 0.1667,
+    "Dialogue history QA": 0.4667,
+    "Event ordering": 0.4,
+    "Financial": 0.6667,
+    "Governmental": 0.6296,
+    "Knowledge graph reasoning": 0.75,
+    "Legal": 0.5833,
+    "Literary": 0.6667,
+    "Many-shot learning": 0.7222,
+    "Multi-news": 1.0,
+    "New language translation": 0.5556,
+    "Table QA": 0.7222,
+    "User guide QA": 0.5556
+  },
+  "accuracy_by_sub_domain_position": {
+    "Academic": {
+      "10%": 0.5263,
+      "50%": 0.5263,
+      "90%": 0.4211
+    },
+    "Agent history QA": {
+      "10%": 0.5,
+      "50%": 0.5,
+      "90%": 0.6
+    },
+    "Code repo QA": {
+      "10%": 0.5556,
+      "50%": 0.5556,
+      "90%": 0.5926
+    },
+    "Detective": {
+      "10%": 0.5,
+      "50%": 0.0,
+      "90%": 0.0
+    },
+    "Dialogue history QA": {
+      "10%": 0.4,
+      "50%": 0.5,
+      "90%": 0.5
+    },
+    "Event ordering": {
+      "10%": 0.4,
+      "50%": 0.4,
+      "90%": 0.4
+    },
+    "Financial": {
+      "10%": 0.5,
+      "50%": 0.8333,
+      "90%": 0.6667
+    },
+    "Governmental": {
+      "10%": 0.7778,
+      "50%": 0.5556,
+      "90%": 0.5556
+    },
+    "Knowledge graph reasoning": {
+      "10%": 0.875,
+      "50%": 0.625,
+      "90%": 0.75
+    },
+    "Legal": {
+      "10%": 0.625,
+      "50%": 0.5,
+      "90%": 0.625
+    },
+    "Literary": {
+      "10%": 0.8333,
+      "50%": 0.6667,
+      "90%": 0.5
+    },
+    "Many-shot learning": {
+      "10%": 0.8333,
+      "50%": 0.6667,
+      "90%": 0.6667
+    },
+    "Multi-news": {
+      "10%": 1.0,
+      "50%": 1.0,
+      "90%": 1.0
+    },
+    "New language translation": {
+      "10%": 0.5,
+      "50%": 0.6667,
+      "90%": 0.5
+    },
+    "Table QA": {
+      "10%": 0.75,
+      "50%": 0.6667,
+      "90%": 0.75
+    },
+    "User guide QA": {
+      "10%": 0.5,
+      "50%": 0.5556,
+      "90%": 0.6111
+    }
+  },
+  "overall_accuracy": 0.5902,
+  "random_baseline": 0.25
+}
