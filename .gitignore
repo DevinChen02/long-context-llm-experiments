@@ -1,0 +1,15 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Regenerable dataset and experiment outputs
+experiments/needle_position/longbench_v2_quality_needle.json
+experiments/context_length/longbench_v2_context_sweep_vapi_qwen.csv
+experiments/prompting_variants/result.tsv
