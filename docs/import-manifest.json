@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "source": "https://github.com/VictorHe404/Sweep-Context-Length-",
+      "branch": "main",
+      "commit": "573c986aa6a518600efda5acf4eff845552cd77f",
+      "destination": "experiments/context_length",
+      "files_sha256": {
+        "README.md": "ac11ea700a86ea6953906eebfe2c8092dc5855aa79ae552e36087f9917a679a9",
+        "context_length_sweep.ipynb": "88b6ec02c42c3556b359e70ce03688137964753fd75d253eb51c77314b23dbae"
+      }
+    },
+    {
+      "source": "https://github.com/DevinChen02/needle_position_perturbation",
+      "branch": "main",
+      "commit": "945a8d09948d43f065546741f2e34ce5332a7d12",
+      "destination": "experiments/needle_position",
+      "files_sha256": {
+        "544_longbench_quality_generation.ipynb": "78542bb8c63823c23c5b4bf5659b19d8aa1e327e89cc073f494c67bd61dda08a",
+        "544_longbench_quality_retrieve_eval.ipynb": "31927374a703694d008413183594ecdd1a1b7cdd62184143a5c287e0599cd24c",
+        "README.md": "dc97e24b164d7f4169db3c4d2e5c3e71fc504470727e948066acb2749b1a851a",
+        "figures/multi_01_position_comparison.png": "92e892763452cbddd6cff286f7034336431be3e4cf1c42ee8f9698031b0c70a1",
+        "figures/multi_02_length_comparison.png": "d88200aa9a272acd95fdfb7cacbf827c1ec1a5850dc4fb680793b04c6ec819c5",
+        "figures/multi_03_failure_rate_by_subdomain_heatmap.png": "6cfd6a352c4b7ba0773752bffc7c0fc0b4d206a995eb276db1861a64f3914477",
+        "figures/multi_05_latency_by_length.png": "304dc30bcc22346f522222d5aca190e5f4762cbe47f136404bdac53c31fa56ed",
+        "model_stats_claude-opus-4-7.json": "571289e229fb5216bbff583f2259e050675078b9dee67ffaed955ffaef52d5c9",
+        "model_stats_deepseek-v3.json": "8b9c6ea5aab6daabeaaa1e1b4bca2d9f5f6c088610681e28899c763706881ccd",
+        "model_stats_gemini-3.1-flash-lite-preview.json": "fd60e088672162deb651e13e09d76a8791a702f00bb4e321af2f8892175af1b9",
+        "model_stats_gpt-5.4-nano.json": "e26d8fbd83a2c1f65ebbbac3754b3c366bee77eeadd1efb4821155b91422c58e",
+        "model_stats_qwen3-vl-flash.json": "76485fbbc612770c93e90ea328d0b26616379b216781afca738b4e631c1e181d",
+        "pairing_metrics.json": "e5ea804ecfb83b18699780e4b1fa4ac6f56deab550bb57188f0835d0508d3c91",
+        "quality_needle_eval_results.json": "8e7ce3a434ed9ad0268506c9fcad1a97c976c92125cf7062cd4375b2eb1b0fea",
+        "quality_needle_subset_ids.json": "150ee441741aedf3ebb77239537ef6716cf83e46139bf9d9b7025a86511c2b55"
+      }
+    },
+    {
+      "source": "https://github.com/AXF-COCO/longbench-v2-api",
+      "branch": "main",
+      "commit": "84ac801e4be23083610dd9cf96e797aa36301ecd",
+      "destination": "experiments/prompting_variants",
+      "files_sha256": {
+        ".gitignore": "1f20d0a7c49d428191e6d68b9f202830c98be5fb72fd38e518e6aaae2142de04",
+        "LICENSE": "bf7f05f274d65931bdf14f060b6855f1c359b8424eb74fd3091d25de89d700c3",
+        "README.md": "08a7067cd3332366a3faa8eaceaa9e79cce4eadf534e4084af936be4073d0174",
+        "config/api_key_name.yaml": "ce25e123152e160b8caad25af2518e83416475ee25406d9e03c632bfa53455ea",
+        "config/model2maxlen.yaml": "b1f8089d2d06346fd8e57908870e864189dfbf6f128ade133db9a7fe81742646",
+        "pred.py": "d9e2de0917f5cbd2e0e0b45f5031cc2a809a7c40ee18e587f777913a8d6c401d",
+        "prompts/answer_from_evidence.txt": "6d6cca9fac20d16cc460b085b85aba83b6f9d1f3598704fe4b70c95bffd8e4d3",
+        "prompts/direct_answer.txt": "68a162252bc9ff71d5d7abca3d69bb31aac3c35f832d657a2866f2018b8a6950",
+        "prompts/extract_evidence.txt": "cb47753ffd44081aceef7912479c0530b3237901ba708105cd7b5734988df61a",
+        "providers/__init__.py": "f1516d80a0d7a18083cc13d330fc42b27372ae9d810fd095a00eb65dbcb12e96",
+        "providers/base.py": "f18f3ad652c7023209301221261d584412124eb681a8f401b3f7ffe0c69a8142",
+        "providers/gemini_provider.py": "b364f3fdc53635be353abb072b5432536253fc191fa86e8e87d35a9af14c1e5b",
+        "providers/openai_provider.py": "7a849bff0c2482bf51a1de8f14690c99a02dd407f221cb50b55e2eb48c05b058",
+        "requirements.txt": "795d7053cd5b55b7953a8ac686ecfc3bb7202af701f6bdf2bbff84f9e4963b3d",
+        "result.py": "8d0ad5cdab74fe362d2647aecf9f38453c3f80a18c0d2e5a1091df50ba878aae",
+        "results/gemini-2.5-pro_direct.jsonl": "cab39557741a9f838e7cc464212fba09592063b524aae19dcac1a5a25fc6f60f",
+        "results/gemini-2.5-pro_extract_then_answer.jsonl": "58ea6b72044881112a920396c9c5f19f6472121c7bd4750d2ea4f2681e5712c0",
+        "results/gpt-5-mini_direct.jsonl": "1dbf85f49653869a8414023aa09782f72789e230e52e37b4f0016dc3d24c8068",
+        "results/gpt-5-mini_extract_then_answer.jsonl": "561502e86da19a5246381b6a7f83de3e575da1c9da204d0290c5bf4227634858",
+        "results/mimo-v2-omni_direct.jsonl": "2687703eaa52294976ab6a9ffe3f302942ec93611c028266cb5a4ab9d8513200",
+        "results/mimo-v2-omni_extract_then_answer.jsonl": "3923119a626a025ac724386a4f15b94ead04e033dc4f6416216ba2da929f5f01"
+      }
+    }
+  ]
+}
