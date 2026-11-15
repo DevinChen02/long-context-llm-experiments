@@ -2,6 +2,8 @@
 
 How does an LLM's ability to use long documents change with context length, evidence position, and prompting strategy? This project brings together three experiments using LongBench v2 and QuALITY, with notebooks, evaluation scripts, saved predictions, and figures.
 
+[Read the project report (PDF)](docs/long-context-llm-report.pdf)
+
 ## Experiments
 
 | Experiment | What it tests | Code and results |
